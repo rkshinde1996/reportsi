@@ -52,76 +52,22 @@
 						<ul class="nav nav-pills navbar-right" id="menu-top"><li class="nav-item">
 							<a class="nav-link active" href="<?php echo SITE_URL; ?>">HOME</a>
 						</li>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" id="navbarDropdownMenuLink">INDUSTRIES <span class="caret"></span></a>
-							<ul class="dropdown-menu mega-dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-								<div class="col-sm-12">
-									<div class="row1">
-										<li class="col-sm-4">
-											<ul>
-												<li><a class="dropdown-item" href="materials-and-chemicals.html">Materials And Chemicals</a></li> 
-												<li><a class="dropdown-item" href="automotive-services.html">Automotive Services</a></li>
-												<li class="dropdown-submenu"><a class="dropdown-item " href="medical-devices.html">Medical Devices</a>
-												</li>
-												<li class="dropdown-submenu"><a class="dropdown-item " href="pharmaceuticals-and-healthcare.html">Pharma And Healthcare</a>
-												</li>
-												<li class="dropdown-submenu"><a class="dropdown-item " href="industry-services.html">Industry Services</a>
-												</li>
-											</ul>
-										</li>
-										<li class="col-sm-4">
-											<ul>
-												<li class="dropdown-submenu"><a class="dropdown-item " href="it-and-telecommunications.html">IT And Telecommunications</a>
-												</li>
-												<li class="dropdown-submenu"><a class="dropdown-item " href="semiconductor-and-electronics.html">Semiconductor And Electronics</a>
-												</li>
-												<li class="dropdown-submenu"><a class="dropdown-item " href="food-and-beverages.html">Food And Beverages</a>
-												</li>
-												<li class="dropdown-submenu"><a class="dropdown-item " href="consumer-goods.html">Consumer Goods</a>
-												</li>
-											</ul>
-										</li>
-										<li class="col-sm-4">
-											<ul>
-												<li class="dropdown-submenu"><a class="dropdown-item " href="manufacturing-and-construction.html">Manufacturing and Construction</a>
-												</li>
-												<li class="dropdown-submenu"><a class="dropdown-item " href="energy-and-power.html">Energy and Power</a>
-												</li>
-												<li class="dropdown-submenu"><a class="dropdown-item " href="aerospace-and-defence.html">Aerospace and Defence</a>
-												</li>
-												<li class="dropdown-submenu"><a class="dropdown-item " href="agriculture.html">Agriculture</a>
-												</li>
-											</ul>
-										</li>
-									</div>
-								</div>
-							</ul>
+						<li class="nav-item">
+							<a class="nav-link" href="#">INDUSTRIES</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="publisher.html">PUBLISHER</a>
+							<a class="nav-link" href="#">PUBLISHER</a>
 						</li>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" id="navbarDropdownMenuLink">INSIGHTS <span class="caret"></span></a>
-							<ul class="dropdown-menu mega-dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-								<div class="col-sm-12">
-									<div class="row1">
-										<li class="col-sm-4">
-											<ul>
-												<li><a class="dropdown-item" href="market-news.html">Market News</a></li>
-												<li class="dropdown-submenu"><a class="dropdown-item " href="market-insights.html">Market Insights</a>
-												</li>
-											</ul>
-										</li>
-									</div>
-								</div>
-							</ul>
+						<li class="nav-item">
+							<a class="nav-link" href="#">INSIGHTS</a>
 						</li>
-						<li class="nav-item"><a class="nav-link" href="about-us.html">ABOUT </a></li>
-						<li class="nav-item"><a class="nav-link" href="contact-us.html">CONTACT</a></li>
+
+						<li class="nav-item"><a class="nav-link" href="#">ABOUT </a></li>
+						<li class="nav-item"><a class="nav-link" href="#">CONTACT</a></li>
 					</ul>
 				</div>
 				<div class="col-md-2 mar-top-30 mobsrch">
-					<form action="https://www.reportsinsights.com/search.php" method="get" class="search_box">
+					<form action="#" method="get" class="search_box">
 						<input type="text" name="key" class="subscribe-input form-control" placeholder="I'm Looking..." required><button type="submit" class="search-btn btn btn-primary"> <i class="fa fa-search"></i> </button>
 					</form>
 				</div>
@@ -132,41 +78,11 @@
 	<div class="container">
 		<div id="mySidenav" class="sidenav">
 			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-			<a href="www.reportsinsights.html">HOME</a>
-			<a href="#" id="subcat">INDUSTRIES <span class="caret"></span></a>
-			<ul class="submenum"><li><a class="dropdown-item" href="materials-and-chemicals.html">-Materials And Chemicals</a></li> 
-				<li><a class="dropdown-item" href="automotive-services.html">-Automotive Services</a></li>
-				<li class="dropdown-submenu"><a class="dropdown-item " href="medical-devices.html">-Medical Devices</a>
-				</li>
-				<li class="dropdown-submenu"><a class="dropdown-item " href="pharmaceuticals-and-healthcare.html">-Pharma And Healthcare</a>
-				</li>
-				<li class="dropdown-submenu"><a class="dropdown-item " href="industry-services.html">-Industry Services</a>
-				</li>
-
-				<li class="dropdown-submenu"><a class="dropdown-item " href="it-and-telecommunications.html">-IT And Telecommunications</a>
-				</li>
-				<li class="dropdown-submenu"><a class="dropdown-item " href="semiconductor-and-electronics.html">-Semiconductor And Electronics</a>
-				</li>
-				<li class="dropdown-submenu"><a class="dropdown-item " href="food-and-beverages.html">-Food And Beverages</a>
-				</li>
-				<li class="dropdown-submenu"><a class="dropdown-item " href="consumer-goods.html">-Consumer Goods</a>
-				</li>
-				<li class="dropdown-submenu"><a class="dropdown-item " href="manufacturing-and-construction.html">-Manufacturing and Construction</a>
-				</li>
-				<li class="dropdown-submenu"><a class="dropdown-item " href="energy-and-power.html">-Energy and Power</a>
-				</li>
-				<li class="dropdown-submenu"><a class="dropdown-item" href="aerospace-and-defence.html">-Aerospace and Defence</a>
-				</li>
-				<li class="dropdown-submenu"><a class="dropdown-item" href="agriculture.html">-Agriculture</a>
-				</li>
-			</ul>
-			<a href="publisher.html">PUBLISHER</a>
-			<a href="#" id="subcat" class="sc1">INSIGHTS <span class="caret"></span></a>
-			<ul class="submenum sub1">
-				<li><a class="dropdown-item" href="market-news.html">Market News</a></li>
-				<li><a class="dropdown-item" href="market-insights.html">Market Insights</a></li>
-			</ul>
-			<a href="about-us.html">ABOUT</a>
-			<a href="contact-us.html">CONTACT</a>
+			<a href="#">HOME</a>
+			<a href="#">INDUSTRIES</a>
+			<a href="#">PUBLISHER</a>
+			<a href="#">INSIGHTS</a>
+			<a href="#">ABOUT</a>
+			<a href="#">CONTACT</a>
 		</div>
 	</div>
